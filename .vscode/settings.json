@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "n76e003.h": "c",
+        "delay.h": "c",
+        "pins.h": "c",
+        "numicro_8051.h": "c",
+        "softwarespislave.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "string.h": "c",
+        "stdint.h": "c",
+        "iapmessage.h": "c",
+        "ihex_parser.h": "c",
+        "arduino.h": "c",
+        "spi.h": "c",
+        "sfr_macro_n76e003.h": "c",
+        "algorithm": "c",
+        "stdbool.h": "c",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp"
+    }
+}
