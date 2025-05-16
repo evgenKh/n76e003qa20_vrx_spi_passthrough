@@ -102,9 +102,11 @@ void main(void)
          IAPReceiverReset();
          g_spiSlaveRxBufHead = 0;//Consume buffer
          
+#if USE_SPI_SLAVE_TX
          //Flush txt log to SPi tx buf
          IAPLogFlushToMem(g_spiSlaveTxBuf, SPISLAVE_BUFSIZE);
          g_spiSlaveTxBufHead = SPISLAVE_BUFSIZE - 1;
+#endif
          SpiSlaveCsListenStart();
       }
       SpiSlaveTick();
